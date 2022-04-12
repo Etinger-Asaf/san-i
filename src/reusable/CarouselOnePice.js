@@ -23,25 +23,3 @@ const CarouselOnePice = (props) => {
 };
 
 export default CarouselOnePice;
-
-// return (
-//   <div className="carouselFigure">
-//     <figure>
-//       <img
-//         className="carouselBackgroundImage"
-//         src={`${props.imageLocation}`}
-//       ></img>
-//       <div className="overlay"></div>
-//       <div className="carouselBtn">
-//         <a href="#">LAUNCH</a>
-//       </div>
-//     </figure>
-//     <figcaption>
-//       <p className="carouselText">
-//         {props.companyName}
-//         <span> {props.appType}</span>
-//         <img src={props.icon} className="icon" />
-//       </p>
-//     </figcaption>
-//   </div>
-// );

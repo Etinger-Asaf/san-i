@@ -3,7 +3,7 @@ const About = () => {
   return (
     <div className="aboutContainer">
       <h1 className="aboutHeader">WHAT WE DO</h1>
-      <p>While we're not eating.. </p>
+      <p>While we're not eating.. :) </p>
       <p>
         We are San Interactive, A premier Design & Technology agency for digital
         media. We provide our services to a large spectrum of corporations, by

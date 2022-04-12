@@ -9,7 +9,12 @@ import xmImage from "../slidingImages/xm.jpg";
 import emcImage from "../slidingImages/emc.jpg";
 const SlidingShow = () => {
   return (
-    <Carousel className="slider" autoPlay="true" infiniteLoop="true">
+    <Carousel
+      className="slider"
+      autoPlay="true"
+      infiniteLoop="true"
+      showThumbs={false}
+    >
       <SliderOnePice
         backgroundImg={melisronImage}
         smallSliderHeader={"Melisron"}
